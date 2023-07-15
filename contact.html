@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+  <h1 align="center">Welcome to the best Online Art Gallery</h1>
+  
+</div>
+<nav>
+  <ul>
+        <li><a href ="/Users/karthik/Desktop/web /home.html"> Home</a></li>
+		<li><a href ="/Users/karthik/Desktop/web /blog.html"> Blog</a></li>
+        <li><a href ="/Users/karthik/Desktop/web /web.html"> Gallery</a></li>
+        <li><a href ="/Users/karthik/Desktop/web /contact.html"> Contact</a></li>
+		<li><a href ="/Users/karthik/Desktop/web /about.html"> About</a></li>
+
+
+
+  </ul>
+</nav>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    textarea {
+      height: 120px;
+    }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="submit.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <footer>
+    All Rights Reserved
+    <p>Developer: Sai Karthik Vempati</p>
+</footer>
+</body>
+</html>
